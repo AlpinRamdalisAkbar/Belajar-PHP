@@ -1,0 +1,15 @@
+<?php 
+	class Yacht 
+	{
+		public $merk;
+
+		public function jalankan()
+		{
+			return 'jalankan Yacht '.$this->merk;
+ 		}
+	}
+
+	$Yacht1 = new Yacht();
+	$Tacht1->merk = 'Louwis';
+	echo $Yacht1->jalankan();
+ ?>
